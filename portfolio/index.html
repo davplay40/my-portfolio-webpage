@@ -5,13 +5,13 @@
   <title>David's portfolio</title>
   <meta charset="utf-8">
   <meta name="Keywords" content="portfolio, c++, c#, UE5, unity,">
-  <meta name="description" content="game developer portfolio website">
+  <meta name="description" content="David Hunter's game developer portfolio website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
+  <meta property="og:title" content="David Hunter">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.daveplay40.com">
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
@@ -24,6 +24,7 @@
   <script src="https://kit.fontawesome.com/f8d003b4ba.js" crossorigin="anonymous"></script>
 </head>
 <script src="js/app.js" defer></script>
+<script src="js/scrolling.js" defer></script>
 <noscript>Please enable Javascript to view this page!</noscript>
 <body>
   <div class="main-nav">
@@ -37,12 +38,12 @@
   <div class="wrapper">
     <div class="image-area">
       <div class="image-text">
-        David hunter's developer portfolio
+        <p id="main-title-text"></p>
       </div>
     </div>
-    <div class="intro-text" id="about-me">
+    <div class="intro-text fade-in" id="about-me">
       <p>About me:</p>
-      <p>I am David Hunter, I am an autistic game/software developer who can develop in any code environment,
+      <p id="about-me-text">I am David Hunter, I am an autistic game/software developer who can develop in any code environment,
         and I am in my final year in Games Development.
         I have used the Godot engine, the Unity engine, and the unreal engine to make different games.</p>
       <p> </p>
@@ -54,7 +55,7 @@
     </div>
     <div class="services" id="Portfolio">
       <div class="col-sm col-md-6 col-lg-4">
-        <div class="single-services">
+        <div class="single-services fade-in">
           <a class="div1" title="Cosmonaut Cleaner">
             <img src="img/Capture02.PNG" alt="Cosmonaut Cleaner">
           </a>
@@ -66,7 +67,7 @@
         </div>
       </div>
       <div class="col-sm col-md-6 col-lg-4">
-        <div class="single-services">
+        <div class="single-services fade-in">
           <a class="div1" title="Perilous Playdate" href="https://link.daveplay40.com/dqhGjW">
             <img src="img/Perilous_playdate.png" alt="Perilous Playdate">
           </a>
@@ -78,7 +79,7 @@
         </div>
       </div>
       <div class="col-sm col-md-6 col-lg-4 gold-rush-box">
-        <div class="single-services">
+        <div class="single-services fade-in">
           <a class="div1" title="Gold Rush" href="https://link.daveplay40.com/3s38Da">
             <img src="img/Gold_Rush.png" alt="Gold Rush Game">
           </a>
@@ -89,7 +90,7 @@
         </div>
       </div>
       <div class="col-sm col-md-6 col-lg-4">
-        <div class="single-services">
+        <div class="single-services fade-in">
           <a class="div1" title="Webpage"></a>
           <div class="item-tag div2"><span>html,</span> <span>css,</span> <span>js</span></div>
           <a class="div3"><p>I have made this webpage myself with html and css.</p></a>
@@ -98,7 +99,7 @@
       </div>
     </div>
   </div>
-  <div class="social-border" id="contact">
+  <div class="social-border fade-in" id="contact">
     <div class="contact-info">
       If you need to contact me, you can contact me through my <a class="link-colour" href="https://link.daveplay40.com/ibVXcO">LinkedIn</a> profile.
     </div>

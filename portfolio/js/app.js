@@ -20,3 +20,19 @@ function addingText(id) {
     x.style.display = "none";
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const textElement = document.getElementById("main-title-text");
+  const text = "David hunter's developer portfolio";
+  let index = 0;
+
+  function typeEffect() {
+    if (index < text.length) {
+      textElement.innerHTML += text.charAt(index);
+      index++;
+      setTimeout(typeEffect, 50); // Adjust speed (50ms per character)
+    }
+  }
+
+  typeEffect(); // Start typing effect on page load
+});
