@@ -51,11 +51,15 @@ body{
 
 .main-title{
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .main-text{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+}
+
+.sub-text{
+  font-size: 1.4rem;
 }
 
 .image img{
@@ -102,4 +106,16 @@ body{
 .fade-in.show{
   opacity: 1;
   transform: translateY(0);
+}
+
+.game-link{
+  font-size: 1.8rem;
+}
+
+.article-link{
+  font-size: 1.8rem;
+}
+
+.roles{
+  font-size: 1.4rem;
 }

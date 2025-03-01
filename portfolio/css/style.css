@@ -350,9 +350,12 @@ textarea {
 }
 
 .div5 {
-  grid-area: 1 / 3 / 3 / 4;
+  grid-area: 1 / 3 / 2 / 4;
 }
 
+.div6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
 
 .single-services p {
   padding: 0 20px;
