@@ -7,8 +7,8 @@ function addingText(id) {
   if (id === "about-me-btn") {
     document.getElementById("about-me-more-1").innerHTML =
       "When I was young I like to discover how different things are made which includes technology and after I got\n" +
-      "laid off due to the Covid-19 pandemic, I started doing an online course from gamedev.tv which was \n" +
-      "unreal 4.22 c++ developer but I didn't finish it due to starting college.";
+      "laid off due to the impact of the Covid-19 pandemic on the company, I started doing an online course from gamedev.tv " +
+      "which was unreal 4.22 c++ developer but I didn't finish it due to starting college.";
     document.getElementById("about-me-more-2").innerHTML =
       "I am well experienced in c# and Unity game engine and I have gained some experience working with Unreal engine. " +
       "I have worked with c++ both independently and in conjunction with the OpenGL library. " +
