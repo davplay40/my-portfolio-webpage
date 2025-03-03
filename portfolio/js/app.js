@@ -10,7 +10,9 @@ function addingText(id) {
       "laid off due to the Covid-19 pandemic, I started doing an online course from gamedev.tv which was \n" +
       "unreal 4.22 c++ developer but I didn't finish it due to starting college.";
     document.getElementById("about-me-more-2").innerHTML =
-      "I have dabbled in python a bit, while I used c# for Unity Games and c++ with OpenGL or with Unreal engine.";
+      "I am well experienced in c# and Unity game engine and I have gained some experience working with Unreal engine. " +
+      "I have worked with c++ both independently and in conjunction with the OpenGL library. " +
+      "I have explored python and gained some hands-on experience with it";
   }
 
   var x = document.getElementById(id);
