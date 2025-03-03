@@ -137,7 +137,11 @@ html {
 
 .item-tag-container{
   margin-top: 10px;
+}
 
+.item-span{
+  border: 1px solid #525253;
+  background-color: #0626aa;
 }
 
 .fade-in{

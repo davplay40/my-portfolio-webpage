@@ -1,5 +1,5 @@
 body{
-    background-image: url("/Images/main_page.jpg");
+    background-image: url("/img/main_page.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -50,17 +50,21 @@ body{
 }
 
 .main-title{
-    text-align: center;
-    font-size: 1.4rem;
+  text-align: center;
+  font-size: 1.6rem;
 }
 
 .main-text{
-    font-size: 1.2rem;
+  font-size: 1.4rem;
+}
+
+.sub-text{
+  font-size: 1.4rem;
 }
 
 .image img{
-    width: 50%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .social-border{
@@ -91,4 +95,27 @@ body{
 
 .link-colour{
     color: #0a53be;
+}
+
+.fade-in{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.show{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.game-link{
+  font-size: 1.8rem;
+}
+
+.article-link{
+  font-size: 1.8rem;
+}
+
+.roles{
+  font-size: 1.4rem;
 }
