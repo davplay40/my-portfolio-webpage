@@ -267,7 +267,7 @@ textarea {
   text-decoration: none;
   color: rgb(197, 26, 26);
   float: left;
-  padding: 16px;
+  padding: 16px 25px;
   text-align: center;
   font-size: 1.2rem;
   border-bottom: 1px solid black;
@@ -314,8 +314,8 @@ textarea {
 
 .services{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Two columns when there's space */
-  gap: 10px; /* Space between the two grids */
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  gap: 10px;
 }
 
 .single-services{
@@ -387,12 +387,13 @@ textarea {
 }
 
 .contact-info a:link{
-  text-decoration: none;
-  color: #333333;
+  text-decoration: underline;
+  color: #ffffff;
 }
 
 .contact-info a :visited{
-  text-decoration: none;
+  text-decoration: underline;
+  color: #e42607;
 }
 
 .item-tag-container{

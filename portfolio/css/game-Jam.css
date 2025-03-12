@@ -53,8 +53,8 @@ html {
 
 .services{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Two columns when there's space */
-  gap: 10px; /* Space between the two grids */
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  gap: 10px;
 }
 
 .single-services{
