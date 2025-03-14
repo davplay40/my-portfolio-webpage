@@ -17,10 +17,10 @@ if (currentPath === "/portfolio/index.html" || currentPath === "/portfolio/Proje
   function sizeChange() {
 
     if (portfolio) {
-      if (window.innerWidth < 100) {
+      if (window.innerWidth < 1000) {
         portfolio.style.gridTemplateColumns = "repeat(1, minmax(400px, 1fr))";
       }
-      else if (window.innerWidth >= 100 && window.innerWidth < 1841) {
+      else if (window.innerWidth >= 1000 && window.innerWidth < 1841) {
         portfolio.style.gridTemplateColumns = "repeat(2, minmax(400px, 1fr))";
       }
       else if (window.innerWidth >= 1841) {
