@@ -17,30 +17,37 @@
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/icon.png">
 
-  <link rel="manifest" href="site.webmanifest">
+  <link rel="manifest" href="/site.webmanifest">
   <meta name="theme-color" content="#fafafa">
   <script src="https://kit.fontawesome.com/f8d003b4ba.js" crossorigin="anonymous"></script>
 
 </head>
+<script src="/js/scrolling.js" defer></script>
 <body class="d-flex h-100 text-center text-bg-dark">
-<div class="main-nav">
+<div class="main-nav fade-in">
   <ul>
     <li><a href="/">Home</a></li>
-    <li><a href="/about-me">about me</a></li>
     <li><a href="/Projects">Projects</a></li>
-    <li><a title="David's Youtube channel" href="https://link.daveplay40.com/JIKbWp">Developer logs</a></li>
+    <li><a href="/Game-jams">Game jams</a></li>
+    <li><a href="/Resume">Resume</a></li>
   </ul>
 </div>
-<div class="main-title">
-  <p>Perilous Playdate</p>
-  <a class="main-text"><p>[text here]</p></a>
-  <a class="image"><img src="/Images/" alt="">
-  </a>
-  <a class="sub-text"><p>[text here]</p></a>
-  <a class="image"><img src="/Images/" alt=""></a>
-
+<div class="main-title fade-in">
+  <p>Gold Rush</p>
+  <a class="main-text fade-in"><p>I made this game at uni for the Network Game Programming model. We learnt how
+  network works in general and in games. I made a simple multiplayer platformer game where you have to race to the top of a
+  mountain.</p></a>
+  <a class="image fade-in"><img src="/img/Gold_Rush.png" alt="Gold Rush"></a>
+  <a class="sub-text fade-in"><p> I started with setting up Unity's Netcode getting it working. After that I added
+  the player and got the movement and animation to sync with other players. Also added coins which adds to the player's
+    score and sync it to other players. Then added enemies that move about and syncs and added a networked projectile
+    so the player can shoot the enemies.
+  </p></a>
+  <a class="video fade-in"><iframe width="560" height="315" src="https://www.youtube.com/embed/Zsafj-wjY74?si=VHfC7CUybBRxDdvT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></a>
+  <p> </p>
+  <a class="game-link fade-in"><p>Here is the link to the <a class="link-colour" href="https://link.daveplay40.com/3s38Da">game</a>.</p></a>
 </div>
-<div class="social-border" id="contact">
+<div class="social-border fade-in" id="contact">
   <div class="contact-info">
     If you need to contact me, you can contact me through my <a class="link-colour" href="https://link.daveplay40.com/ibVXcO">LinkedIn</a> profile.
   </div>
