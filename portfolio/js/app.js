@@ -3,7 +3,7 @@ document.getElementById("about-me-btn").addEventListener("click", function () {
 })
 
 function addingText(id) {
-
+// this is for the about me button on the main page
   if (id === "about-me-btn") {
     document.getElementById("about-me-more-1").innerHTML =
       "When I was young I like to discover how different things are made which includes technology and after I got\n" +
@@ -15,6 +15,7 @@ function addingText(id) {
       "I have explored python and gained some hands-on experience with it";
   }
 
+  //this is to remove the button after it is pressed
   var x = document.getElementById(id);
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -23,6 +24,7 @@ function addingText(id) {
   }
 }
 
+// this is for the main title type effect
 document.addEventListener("DOMContentLoaded", function () {
   const textElement = document.getElementById("main-title-text");
   const text = "David hunter's developer portfolio";

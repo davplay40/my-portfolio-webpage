@@ -15,7 +15,7 @@ if (currentPath === "/portfolio/index.html" || currentPath === "/portfolio/Proje
   const portfolio = document.getElementById("Portfolio");
 
   function sizeChange() {
-
+    // this is to change the grid columns depending on the browser size
     if (portfolio) {
       if (window.innerWidth < 1000) {
         portfolio.style.gridTemplateColumns = "repeat(1, minmax(400px, 1fr))";
@@ -30,6 +30,7 @@ if (currentPath === "/portfolio/index.html" || currentPath === "/portfolio/Proje
   }
 }
 
+// this is for the different elements to fade in on the page
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll(".fade-in");
 
