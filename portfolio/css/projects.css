@@ -144,6 +144,10 @@ html {
   background-color: #0626aa;
 }
 
+.fa-brands{
+  color: lightblue;
+}
+
 .fade-in{
   opacity: 0;
   transform: translateY(20px);

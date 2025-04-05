@@ -97,6 +97,10 @@ body{
     color: #0a53be;
 }
 
+.fa-brands{
+  color: lightblue;
+}
+
 .fade-in{
   opacity: 0;
   transform: translateY(20px);
